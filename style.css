@@ -193,6 +193,7 @@ span {
     flex-direction: column;
     text-align: center;
     gap: 40px;
+    margin: 20px 0px;
 }
 
 .img-box {
@@ -242,6 +243,7 @@ span {
     border-radius: 25px;
     width: 150px;
     height: 40px;
+    border: none;
 }
 
 .box-sec4 h1 {
