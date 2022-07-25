@@ -13,6 +13,10 @@ body {
     font-family: 'PT Sans', sans-serif;;
 }
 
+.flex {
+    display: flex;
+}
+
 
 header {
     position: fixed;
@@ -20,4 +24,15 @@ header {
     width: 100%;
     min-height: 80px;
     line-height: 80px;
+}
+
+.container-header {
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+   width: 100%;
+}
+
+.icon-menu {
+    color: white;
 }
