@@ -48,7 +48,7 @@ section:nth-of-type(even){
 
 section{
     margin-top: 50px;
-    margin-bottom: 50px;
+    
 }
 
 main {
@@ -298,7 +298,8 @@ span {
 .sec6 {
     flex-direction: column;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .sec6 h4 {
@@ -342,3 +343,27 @@ span {
 a {
     color: white;
 }
+
+/******* FOOTER ******/
+
+footer {
+    background-color: #333333;
+}
+
+.footer-gap {
+    color: white;
+    gap: 30px;
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 14px;
+}
+
+.finaltext {
+    padding: 30px;
+}
+
+.finaltext a {
+    color: #9792e4;
+}
+
+
