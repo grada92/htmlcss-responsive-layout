@@ -17,7 +17,6 @@ body {
     display: flex;
 }
 
-
 header {
     position: fixed;
     background-color: #0084fd;
@@ -117,6 +116,10 @@ strong {
     padding-bottom: 50px;
 }
 
+.planning1 h2 {
+    padding-bottom: 30px;
+}
+
 .planning1 img {
     padding:70px 20px
 }
@@ -156,11 +159,68 @@ span {
 .icon-arrow .fa-solid {
     background-color:#9792e4 ;
     border-radius: 50%;
-    padding: 25px;
+    padding: 15px 18px;
 }
 
 .sec2 {
     padding-bottom: 70px;
+}
+
+.sec3 {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.sec3 h1 {
+    font-size: 40px;
+    color: #9792e4;
+}
+
+
+.sec3 p {
+    font-size: 20px;
+    gap: 30px;
+    line-height: 35px;
+    padding: 30px;
+}
+
+.box {
+    background-color: #9792e4;
+    border-radius: 50px;
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.img-box {
+    border-radius: 50%;
+}
+
+.img-box img {
+    clip-path: circle();
+}
+
+.paragrafo-sec3 p {
+    line-height: 30px;
+    font-size: 20px;
+    color: white; 
+}
+
+.name {
+    font-size: 20px;
+    color: white;
+}
+
+.sec4 {
+    padding-top: 50px;
+}
+
+.title-sec4 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
 }
 
 
