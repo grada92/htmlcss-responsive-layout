@@ -88,3 +88,15 @@ img {
 p {
     color: #63798c;
 }
+
+#button1 {
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    background-color: #0084fd;
+    color: white;
+}
+
+.card #img1 {
+    padding-top: 50px;
+}
