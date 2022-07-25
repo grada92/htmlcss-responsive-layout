@@ -237,7 +237,7 @@ span {
     line-height: 30px;
 }
 
-#button2 {
+.button2 {
     background-color: #9792e4;
     color: white;
     border-radius: 25px;
