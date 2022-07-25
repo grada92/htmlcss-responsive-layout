@@ -23,6 +23,7 @@ header {
     width: 100%;
     min-height: 80px;
     line-height: 80px;
+    z-index: 2;
 }
 
 .container-header {
@@ -199,7 +200,8 @@ span {
 }
 
 .img-box img {
-    clip-path: circle();
+    clip-path: circle(35%);
+    z-index: 1;
 }
 
 .paragrafo-sec3 p {
@@ -258,6 +260,41 @@ span {
 
 .box-sec4 {
     margin: 40px 0px;
+}
+
+.sec5 h1 {
+    padding: 30px 0px;
+    font-size: 40px;
+    color: #9792e4;
+}
+
+.paragrafi-sec5 {
+    line-height: 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about {
+    width: 50%;
+    padding:30px 0px;
+    clip-path: circle(40%);
+}
+
+.sec5 h5 {
+    font-size: 30px;
+    color: #9792e4;
+    padding-bottom: 20px;
+}
+
+#button3 {
+    background-color: #9792e4;
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    border: none;
+
+
 }
 
 
