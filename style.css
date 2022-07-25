@@ -67,7 +67,7 @@ text-align:center;
 background-color:#b5ddff;
 display: flex;
 flex-direction: column;
-padding:20px;
+padding:40px;
 }
 
 h3 {
@@ -82,7 +82,7 @@ img {
 .first-section #paragrafo1 {
     text-align: left;
     padding-bottom: 20px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 p {
@@ -97,6 +97,18 @@ p {
     color: white;
 }
 
-.card #img1 {
+.card .img1 {
     padding-top: 50px;
+    margin-bottom: -40px;
+}
+
+.card .fa-solid {
+    font-size: 120px;
+    padding: 40px;
+    color:#0084fd ;
+}
+
+.card p {
+    padding-bottom: 30px;
+    line-height: 30px;
 }
