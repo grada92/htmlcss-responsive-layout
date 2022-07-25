@@ -41,3 +41,50 @@ header {
     width: 100%;
     padding: 0 20px;
 }
+
+section:nth-of-type(even){
+    background-color:#9792e4;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.first-section {
+    flex-direction: column;
+    width: 100%;
+    row-gap: 20px;
+}
+
+.card {
+border-radius: 25px;
+text-align:center;
+background-color:#b5ddff;
+display: flex;
+flex-direction: column;
+padding:20px;
+}
+
+h3 {
+    color:#0084fd;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.first-section #paragrafo1 {
+    text-align: left;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+p {
+    color: #63798c;
+}
