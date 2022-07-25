@@ -8,3 +8,16 @@
 
 /****** Content ******/
 
+body {
+
+    font-family: 'PT Sans', sans-serif;;
+}
+
+
+header {
+    position: fixed;
+    background-color: #0084fd;
+    width: 100%;
+    min-height: 80px;
+    line-height: 80px;
+}
