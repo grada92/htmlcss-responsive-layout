@@ -17,6 +17,8 @@ body {
     display: flex;
 }
 
+/***** HEADER ****/
+
 header {
     position: fixed;
     background-color: #0084fd;
@@ -36,6 +38,10 @@ header {
 .icon-menu {
     color: white;
 }
+
+/****** /HEADER ****/
+
+/***** MAIN ****/
 
 .container {
     width: 100%;
@@ -346,6 +352,8 @@ a {
     color: white;
 }
 
+/******* /MAIN *****/
+
 /******* FOOTER ******/
 
 footer {
@@ -368,4 +376,4 @@ footer {
     color: #9792e4;
 }
 
-
+/******* /FOOTER ********/
