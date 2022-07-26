@@ -372,6 +372,7 @@ span {
     text-align: center;
     padding-bottom: 40px;
     margin-bottom: 0px;
+    
 }
 
 .sec6 h4 {
@@ -430,10 +431,13 @@ footer {
     text-align: center;
     padding: 30px 30px;
     font-size: 14px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .finaltext {
     padding: 30px;
+    justify-content: center;
 }
 
 .finaltext a {
@@ -557,6 +561,14 @@ footer {
 
         width: calc(100% / 3 - 30px);
         margin: 20px 10px;
+    }
+
+    .img-sec5 img {
+        width: 100%;
+    }
+
+    .buttonlinkedin {
+        padding-bottom: 50px;
     }
 
   }
