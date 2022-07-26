@@ -76,6 +76,17 @@ flex-direction: column;
 padding:25px;
 }
 
+.buttoncard {
+   position :relative;
+}
+
+.buttoncard .fa-brands {
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    color: white;
+}
+
 h3 {
     color:#0084fd;
     padding-bottom: 30px;
@@ -97,6 +108,7 @@ strong {
 
 #button1 {
     border-radius: 25px;
+    border: none;
     width: 200px;
     height: 40px;
     background-color: #0084fd;
