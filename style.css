@@ -62,9 +62,9 @@ main {
 }
 
 .first-section {
-    flex-direction: column;
     width: 100%;
     row-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -400,3 +400,19 @@ footer {
 }
 
 /******* /FOOTER ********/
+
+
+/******* RESPONSIVE ******/
+
+@media screen and (min-width: 768px){
+
+   .first-section .card {
+    width: calc(100% / 3);
+    margin: 0px 10px;
+   }
+
+   
+}
+
+
+
