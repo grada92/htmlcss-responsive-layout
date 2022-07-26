@@ -419,7 +419,11 @@ footer {
    .first-section .card:first-child {
     width: 60%;
    }
-
+   
+   .box {
+    flex-direction: row;
+    text-align: left;
+   }
    
 
 
