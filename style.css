@@ -530,6 +530,12 @@ footer {
         flex-direction: column;
     }
 
+    .img1 {
+        position: relative;
+        
+        
+    }
+
     .box-section1 {
         text-align: left;
     }
@@ -576,6 +582,10 @@ footer {
 
     .planning1 {
         gap: 60px;
+    }
+
+    .card .img1 {
+        padding-top: 200px;
     }
 
 
