@@ -407,11 +407,17 @@ footer {
 @media screen and (min-width: 768px){
 
    .first-section .card {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 40px);
     margin: 0px 10px;
+   }
+   
+   .first-section .card:first-child {
+    width: 60%;
    }
 
    
+
+
 }
 
 
