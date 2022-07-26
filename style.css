@@ -154,6 +154,7 @@ strong {
 
 .planning1 {
     padding-bottom: 50px;
+    flex-direction: column;
 }
 
 .planning1 h2 {
@@ -186,6 +187,10 @@ strong {
 
 .planning2 h2 {
     color: black;
+}
+
+.box-section2 {
+    flex-direction: column;
 }
 
 span {
@@ -503,11 +508,49 @@ footer {
 
     header {
         width: 100%;
-        padding: 0px 80px;
+        padding: 0px 150px;
     }
-
     .menu-block {
         display: inline-block;
+    }
+
+    .container {
+        padding: 0px 150px;
+    }
+
+    .box-section2 {
+        flex-direction: row;
+    }
+
+
+    .planning2 {
+        flex-direction: column;
+        margin: 200px 0px;
+       
+    }
+
+    .box-section2 {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .planning1 {
+        gap: 60px;
+    }
+
+
+
+    .planning2 img {
+        width: 70%;
+    }
+
+    .sec2 {
+        padding: 0px 100px;
+    }
+
+    .img-box img {
+        width: 70%;
     }
 
     
