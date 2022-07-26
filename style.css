@@ -35,8 +35,23 @@ header {
    width: 100%;
 }
 
+#button-header {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+
+
 .icon-menu {
     color: white;
+}
+
+.menu-block {
+    display:none;
 }
 
 /****** /HEADER ****/
@@ -65,6 +80,7 @@ main {
     width: 100%;
     row-gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -74,6 +90,7 @@ background-color:#b5ddff;
 display: flex;
 flex-direction: column;
 padding:25px;
+align-items: center;
 }
 
 .buttoncard {
@@ -82,7 +99,7 @@ padding:25px;
 
 .buttoncard .fa-brands {
     position: absolute;
-    top: 12px;
+    top: 40px;
     left: 50px;
     color: white;
 }
@@ -113,6 +130,10 @@ strong {
     height: 40px;
     background-color: #0084fd;
     color: white;
+}
+
+.buttoncard {
+    padding-top: 30px;
 }
 
 .card .img1 {
@@ -452,11 +473,53 @@ footer {
     margin: 0px 107px 0px 0px;
    }
 
-
-
-   
-
 }
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .first-section .card:first-child {
+        flex-direction: row;
+    }
+    .buttoncard {
+        flex-direction: column;
+    }
+
+    .box-section1 {
+        text-align: left;
+    }
+
+    .menu-block ul {
+        display: flex;
+        gap: 50px;
+        list-style-type: none;
+        color: white;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        padding: 0px 80px;
+    }
+
+    .menu-block {
+        display: inline-block;
+    }
+
+    
+
+
+  
+  }
+  
+  
+
+
+
 
 
 
