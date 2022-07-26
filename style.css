@@ -330,6 +330,10 @@ span {
     position: relative;
 }
 
+.img-sec5 {
+    flex-direction: column;
+}
+
 .buttonlinkedin .fa-brands {
     position: absolute;
     top: 12px;
@@ -438,7 +442,10 @@ footer {
    .container-section4 .box-sec4 {
     width: calc(100% / 2 - 30px);
     margin: 20px 10px;
-    
+   }
+
+   .sec5 {
+    display: flex;
    }
 
 
