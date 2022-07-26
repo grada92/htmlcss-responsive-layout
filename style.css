@@ -553,10 +553,12 @@ footer {
         width: 70%;
     }
 
-    
+    .container-section4 .box-sec4 {
 
+        width: calc(100% / 3 - 30px);
+        margin: 20px 10px;
+    }
 
-  
   }
   
   
