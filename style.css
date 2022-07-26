@@ -253,6 +253,22 @@ span {
     z-index: 1;
 }
 
+.quotes::before,
+.quotes::after{
+  font-size: 70px;
+  color: #fff;
+  line-height: 0;
+  vertical-align: bottom;
+}
+
+.quotes::before {
+    content: open-quote;
+}
+
+.quotes::after {
+    content: close-quote;
+}
+
 .paragrafo-sec3 p {
     line-height: 30px;
     font-size: 20px;
