@@ -383,7 +383,7 @@ span {
 
 .quotes-relative {
     position: relative;
-    width: 400px
+    width: 320px
 }
 
 .quotes-relative .fa-quote-right {
@@ -614,6 +614,10 @@ footer {
     .sec5 h5 {
         margin: 0px 140px 33px 0px;
     }
+
+
+   
+
 
   }
   
