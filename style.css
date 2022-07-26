@@ -204,6 +204,10 @@ span {
     padding: 30px;
 }
 
+.paragrafo-sec3 {
+    flex-direction: column;
+}
+
 .box {
     background-color: #9792e4;
     border-radius: 50px;
@@ -230,6 +234,7 @@ span {
 }
 
 .name {
+    padding-top: 20px;
     font-size: 20px;
     color: white;
 }
