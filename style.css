@@ -372,8 +372,26 @@ span {
     position: relative;
 }
 
+.sec5 {
+    flex-direction: column;
+}
+
 .img-sec5 {
     flex-direction: column;
+    
+}
+
+.quotes-relative {
+    position: relative;
+    width: 400px
+}
+
+.quotes-relative .fa-quote-right {
+    position: relative;
+    top: 29px;
+    right: 58px;
+    font-size: 50px;
+    color: #9792e4;
 }
 
 .buttonlinkedin .fa-brands {
@@ -492,6 +510,7 @@ footer {
 
    .sec5 {
     display: flex;
+    flex-direction: column;
    }
 
    .paragrafi-sec5 {
@@ -580,11 +599,20 @@ footer {
     }
 
     .img-sec5 img {
-        width: 100%;
+        width: 50%;
     }
 
     .buttonlinkedin {
         padding-bottom: 50px;
+    }
+
+    .sec5 {
+        flex-direction: row;
+    
+    }
+
+    .sec5 h5 {
+        margin: 0px 140px 33px 0px;
     }
 
   }
