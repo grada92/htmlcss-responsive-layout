@@ -315,6 +315,17 @@ span {
     border: none;
 }
 
+.buttonlinkedin {
+    position: relative;
+}
+
+.buttonlinkedin .fa-brands {
+    position: absolute;
+    top: 12px;
+    left: 47px;
+    color: white;
+}
+
 .sec6 {
     flex-direction: column;
     text-align: center;
